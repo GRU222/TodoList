@@ -1,3 +1,7 @@
+body{
+    display: flex;
+    justify-content: center;
+}
 .dropbtn {
     background-color: #724caf;
     padding: 16px;
@@ -24,4 +28,7 @@
 }
 .dropdown:hover .dropbtn {
     background-color: #4b8e3e;
+}
+.dropdown{
+    margin-left: 10px;
 }
