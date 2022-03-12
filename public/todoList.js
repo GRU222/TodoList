@@ -8,3 +8,17 @@ const firebaseConfig = {
     appId: "1:788653159519:web:481a2f3cd4774c0782d7ea"
 };
 const app = initializeApp(firebaseConfig);
+(function () {
+    document.querySelector('#add').addEventListener('click', function () {
+      let input = document.querySelector('#text');
+      let list = document.querySelector('#list'); 
+      
+      let item = document.createElement('li'); 
+      let itemText = document.createTextNode(input.value); 
+      
+      item.appendChild(itemText); 
+      list.appendChild(item); 
+      
+      input.value = ""; 
+    });
+  })();
