@@ -8,3 +8,8 @@ const firebaseConfig = {
     appId: "1:788653159519:web:481a2f3cd4774c0782d7ea"
 };
 const app = firebase.initializeApp(firebaseConfig);
+const db = app.firestore();
+let = cata = "Бусад";
+function categories(a){
+    cata = a;
+}
