@@ -9,6 +9,7 @@ const firebaseConfig = {
 };
 const app = firebase.initializeApp(firebaseConfig);
 const db = app.firestore();
+let = cata = "Бусад";
 function categories(a){
-    var cata = a;
+    cata = a;
 }
